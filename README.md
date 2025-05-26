@@ -1,4 +1,4 @@
-# catpuccin-dotfiles
+# catppuccin-dotfiles
 
 Personal dotfiles themed with [Catppuccin](https://catppuccin.com/), configured for a minimal Wayland setup using Hyprland.
 
