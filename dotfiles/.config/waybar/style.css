@@ -45,6 +45,7 @@ button:hover {
 
 #workspaces button.urgent {
   background-color: @maroon;
+  border-radius: 8px;  /* Adjust this value as you like */
 }
 
 #mode {
