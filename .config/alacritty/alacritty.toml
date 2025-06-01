@@ -1,3 +1,6 @@
+[env]
+TERM = "xterm-256color"
+
 [terminal.shell]
 program = "/usr/bin/zsh"  # или "/usr/bin/zsh", проверь через which zsh
 args = ["--login"]
