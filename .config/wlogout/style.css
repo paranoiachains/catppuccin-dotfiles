@@ -20,12 +20,23 @@ button {
     margin: 10px;
 }
 
-/* Hover + Active states */
-button:focus, button:active, button:hover {
-    background-color: #1e1e2e;  /* remove mauve fill */
+/* Keyboard focus (selected by arrows/tab) */
+button:focus-visible {
+    border-color: white;      /* white border only on keyboard focus */
     outline: none;
-    border-color: white;             /* white border on selected */
-    /* color unchanged */
+    background-color: #1e1e2e; /* same dark background */
+}
+
+/* Mouse hover (no white border, just darker background) */
+button:hover {
+    background-color: #14141f; /* slightly darker on hover */
+    border-color: initial;     /* keep original border color */
+}
+
+/* Active state (mouse click) */
+button:active {
+    background-color: #1e1e2e; /* same as focused background or slightly darker if you want */
+    /* border-color remains default unless keyboard focused */
 }
 
 window {
