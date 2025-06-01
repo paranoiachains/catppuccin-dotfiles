@@ -1,0 +1,11 @@
+includes:
+nvim
+tmux
+oh-my-zsh
+alacritty
+hyprland
+hyprpaper
+mako
+rofi
+waybar
+wlogout
