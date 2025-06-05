@@ -13,7 +13,7 @@
     "pulseaudio",
     "network",
     "clock",
-    "custom/power"
+    "custom/power",
     ],
     "hyprland/window": {
       "format": "{}",
@@ -39,11 +39,11 @@
       "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
       "format-alt": "{:%Y-%m-%d}"
     },
-    "network": {
-      "interface": "enp7s0",
-      "format-ethernet": "{ipaddr}",
-      "format-disconnected": "Disconnected"
-    },
+"network": {
+  "interface": "enp7s0",
+  "format-ethernet": "eth",
+  "format-disconnected": "󰖪 Disconnected"
+},
     "pulseaudio": {
       "format": "{icon}  {volume}%",
       "format-bluetooth": "{volume}% {icon} {format_source}",
@@ -66,5 +66,5 @@
       "tooltip-format": " Power Menu",
       "on-click": "wlogout",
       "interval": 3600
-    }
+    },
 }
